@@ -29,8 +29,8 @@ jobs:
 
       - name: Commit and push if data changed
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "CrisAQ2410"
+          git config user.email "chuanhquoc2410@gmail.com"
 
           mkdir -p data/weather
           git add data/weather/
